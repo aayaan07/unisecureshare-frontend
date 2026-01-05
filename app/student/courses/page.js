@@ -178,7 +178,7 @@ const MyCoursesPage = () => {
           {filteredCourses.length > 0 ? (
             filteredCourses.map((course) => (
               <Link
-                href={`/courses/${course.code}`}
+                href={`/student/courses/${course.code}`}
                 key={course.id}
                 className="group bg-white rounded-lg shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden border border-slate-200"
               >
